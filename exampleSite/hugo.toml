@@ -1,14 +1,14 @@
-baseURL = "https://example.com"
-title = "Tella"
-author = "username"
-languageCode = "en"
+baseURL = "https://jiwon051.github.io/JW-Profile/"
+title = "HJW"
+author = "HJW"
+languageCode = "ko"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 theme = "tella"
 enableRobotsTXT = true
 
 # Please enable this feature if the site is available in Japanese, Chinese or Korean.
-#hasCJKLanguage = true
+hasCJKLanguage = true
 
 [services]
   [services.googleAnalytics]

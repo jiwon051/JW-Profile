@@ -25,15 +25,15 @@ mainSections = ['blog']
 googleFonts = true
 
   [params.logo]
-  main = "img/logo/logo.svg"
-  alt = "Tella Logo"
+  main = "img/logo/logo.png"
+  alt = "HJW Logo"
 
   # The size parameter is the class name of tailwindcss
   # https://tailwindcss.com/
   size = "h-14"
 
   [params.site]
-  name = "Tella"
+  name = "HJW"
 
   [params.icon]
   # If you want to use FontAwesome, set this parameter to true.

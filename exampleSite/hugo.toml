@@ -44,7 +44,7 @@ googleFonts = true
 
   [params.share]
   # If you want to use share buttons, set this parameter to true.
-  enable = true
+  enable = false
   # Uncomment and edit to limit which services are shown
   # services = ["twitter", "mastodon", "facebook", "line", "linkedin", "whatsapp", "mail", "copy"]
 

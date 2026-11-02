@@ -1,18 +1,18 @@
 [
   {
-    "title": "Simple",
-    "description": "All the bare necessities are there.",
-    "icon": "bi bi-box"
+    "title": "introduce",
+    "description": "전북대학교 산업정보시스템공학(복수전공:컴퓨터공헉)",
+    "icon": "bi bi-mortarboard"
   },
   {
-    "title": "Fast",
-    "description": "Light weight and fast loading speed.",
-    "icon": "bi bi-lightning-charge"
+    "title": "mail",
+    "description": "hanwon1230@jbnu.ac.kr",
+    "icon": "bi bi-envelope"
   },
   {
     "title": "Github",
-    "description": "Please fork the Github repository and contribute to this theme!",
-    "link": "https://github.com/opera7133/tella",
+    "description": "Welcome to my GitHub!",
+    "link": "https://github.com/jiwon051/JW-Profile",
     "icon": "bi bi-github"
   }
 ]

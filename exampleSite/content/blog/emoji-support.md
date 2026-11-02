@@ -1,46 +1,60 @@
 ---
-author: "Hugo Authors"
-title: "Emoji Support"
-date: "2019-03-05"
-description: "Guide to emoji usage in Hugo"
-tags: [
-    "emoji",
-]
+author: "Han jiwon"
+title: "향후 학습 목표"
+date: "2026-10-31"
+description: "향후 학습 목표 및 실행계획"
+tags: ["학습 목표"]
 ---
 
-Emoji can be enabled in a Hugo project in a number of ways. 
+학습 목표 : 영어 말하기 능력을 키우고 취업준비를 위한 OPIc IH 등급 취득
 <!--more-->
-The [`emojify`](https://gohugo.io/functions/emojify/) function can be called directly in templates or [Inline Shortcodes](https://gohugo.io/templates/shortcode-templates/#inline-shortcodes). 
 
-To enable emoji globally, set `enableEmoji` to `true` in your site's [configuration](https://gohugo.io/getting-started/configuration/) and then you can type emoji shorthand codes directly in content files; e.g.
+## 학습 목표  
 
-<p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
-<br>
+ 학습 목표 : [OPIc IH 취득]
 
-The [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) is a useful reference for emoji shorthand codes.
+ 2027년 2월까지 OPIc IH 등급 취득을 목표로 한다.
+ 
+ ### 세부 목표
 
-***
+*  일상생활 및 회사생활에서 다양한 주제에 대해 영어로 자연스럽게 대화하기
+*  영어 말하기에 대한 자신감 높이기
 
-**N.B.** The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.
+---
 
-{{< highlight html >}}
-.emoji {
-  font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-}
-{{< /highlight >}}
+## 실행 계획
 
-{{< css.inline >}}
-<style>
-.emojify {
-	font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-	font-size: 2rem;
-	vertical-align: middle;
-}
-@media screen and (max-width:650px) {
-  .nowrap {
-    display: block;
-    margin: 25px 0;
-  }
-}
-</style>
-{{< /css.inline >}}
+### Monthly Plan
+
+#### 11월 | start
+
+* OPIc 시험 유형 및 평가 방식 파악
+* 기초 회화 표현 및 문장 패턴 학습
+
+#### 12월 | build
+
+* 실제 경험 활용한 답변 연습
+* 주요 주제별 답변 구성
+
+####  1월 | practice
+
+* 돌발 주제 및 예상 질문 연습
+* 모의시험 실시 및 취약 부분 보완
+
+####  2월 | Challenge
+
+* 주요 주제 및 돌발 질문 최종 복습
+* 실전 모의시험 실시
+* OPIc 시험 응시
+
+### Weekly Routine
+
+| 학습 항목 | 실행 계획 |
+|---|---|
+| Speaking | 주 3~4회 말하기 연습 |
+| Vocabulary | 새로운 표현 및 어휘 정리 |
+| Recording | 답변 녹음 후 스스로 피드백 |
+| Review | 학습 내용 복습 및 부족한 부분 보완 |
+  
+
+

@@ -49,15 +49,15 @@ googleFonts = true
   # services = ["twitter", "mastodon", "facebook", "line", "linkedin", "whatsapp", "mail", "copy"]
 
   [params.homepage_meta_tags]
-  meta_description = "A Hugo Theme for OSSProject, Companies, Organization..."
-  meta_og_title = "Tella"
+  meta_description = "HJW의 개인 포트폴리오"
+  meta_og_title = "HJW"
   meta_og_type = "website"
-  meta_og_url = "https://tella.pages.dev"
-  meta_og_image = "https://raw.githubusercontent.com/opera7133/tella/master/images/tn.png"
-  meta_og_description = "A Hugo Theme for OSSProject, Companies, Organization..."
-  meta_twitter_card = "summary_large_image"
-  meta_twitter_site = "@username"
-  meta_twitter_creator = "@username"
+  meta_og_url = "https://jiwon051.github.io/JW-Profile/"
+  #meta_og_image = "https://raw.githubusercontent.com/opera7133/tella/master/images/tn.png"
+  meta_og_description = "HJw의 개인 포트폴리오"
+  #meta_twitter_card = "summary_large_image"
+  #meta_twitter_site = "@username"
+  #meta_twitter_creator = "@username"
 
   [params.giscus]
   # Giscus Comment System

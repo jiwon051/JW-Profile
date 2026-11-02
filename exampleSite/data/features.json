@@ -1,13 +1,12 @@
 [
   {
-    "title": "major",
-    "description": "전북대학교 산업정보시스템공학    (복수전공:컴퓨터공학)",
+    "title": "Major",
+   "description": "전북대학교 산업정보시스템공학<br>(복수전공:컴퓨터공학)",
     "icon": "bi bi-mortarboard"
   },
   {
-    "title": "mail",
+    "title": "Mail",
     "description": "hanwon1230@jbnu.ac.kr",
-    "link": "mailto:hanwon1230@jbnu.ac.kr",
     "icon": "bi bi-envelope"
   },
   {

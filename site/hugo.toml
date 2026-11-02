@@ -108,7 +108,7 @@ googleFonts = true
 
   [[menu.footer]]
   name = "Github"
-  url = "https://github.com/opera7133/tella"
+  url = "https://github.com/jiwon051/JW-Profile"
   #pre = "<i class='bi bi-github text-2xl'></i>"
   weight = 2
 

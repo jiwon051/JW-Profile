@@ -1,7 +1,7 @@
 ---
 title: "소개"
 description: "자기 소개 및 관심분야"
-date: "2026-11-1"
+date: "2026-11-01"
 author: "Han jiwon"
 ---
 

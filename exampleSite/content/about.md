@@ -1,24 +1,24 @@
 ---
-title: "About"
-description: "Hugo, the world's fastest framework for building websites"
-date: "2019-02-28"
-author: "Hugo Authors"
+title: "소개"
+description: "자기 소개 및 관심분야"
+date: "2026-11-1"
+author: "Han jiwon"
 ---
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+<section class="about-profile">
+  <p class="about-name">한지원</p>
+  <p class="about-major">전북대학교 산업정보시스템공학 / 컴퓨터공학(복수전공)</p>
+  <p class="about-intro">
+    산업공학과 컴퓨터공학을 전공하며 다양한 분야의 지식과 기술을 배우고 있습니다. 
+    데이터 분석과 IT 기술에 관심이 있으며 배운 내용을 실제 문제 해결에 활용하는 것을 목표로 하고 있습니다.
+  </p>
+</section>
 
-Hugo makes use of a variety of open source projects including:
+<hr class="about-divider">
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+<h2 class="about-interest-title">관심분야</h2>
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
-
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
-
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+<div class="about-interest-list">
+{{< interest link="/blog/interest-1" title="Data Analysis" desc="데이터 분석 및 데이터 시각화" >}}
+{{< interest link="/blog/interest-2" title="IT Service" desc="IT 서비스 기획 및 운영" >}}
+</div>

@@ -74,4 +74,26 @@
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
   transform: translateY(-2px);
 }
-
+.content .about-interest-card-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+.content .about-interest-card-desc {
+  font-size: 0.95rem;
+  color: #6b7280;
+}
+.content .about-interest-card-more {
+  margin-top: auto;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #2563eb;
+}
+@media (prefers-reduced-motion: reduce) {
+  .content .about-interest-card {
+    transition: none;
+  }
+  .content .about-interest-card:hover {
+    transform: none;
+  }
+}

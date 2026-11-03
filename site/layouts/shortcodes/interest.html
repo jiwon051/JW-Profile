@@ -1,0 +1,15 @@
+{{- /*
+  관심분야 박스 (about 페이지용)
+  사용법: {{< interest link="/blog/파일이름" title="제목" desc="설명" >}}
+  link 는 content/blog/ 아래 글의 경로(확장자 .md 제외)
+*/ -}}
+{{- $link := .Get "link" -}}
+{{- $href := $link | relURL -}}
+{{- with site.GetPage $link }}{{ $href = .RelPermalink }}{{ end -}}
+<a class="about-interest-card" href="{{ $href }}">
+  <span class="about-interest-card-title">{{ .Get "title" }}</span>
+  {{- with .Get "desc" }}
+  <span class="about-interest-card-desc">{{ . }}</span>
+  {{- end }}
+  <span class="about-interest-card-more" aria-hidden="true">자세히 보기 →</span>
+</a>

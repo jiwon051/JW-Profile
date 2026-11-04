@@ -3,6 +3,7 @@ author: "Han jiwon"
 title: "IT Service"
 date: "2026-10-30"
 description: "IT 서비스 기획 및 운영 설명과 관심을 가지게 된 이유"
+image: "img/blog/it-service.jpg"
 tags: [
     "IT Service",
     "서비스 기획",

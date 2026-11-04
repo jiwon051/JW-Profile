@@ -3,6 +3,7 @@ author: "Han jiwon"
 title: "향후 학습 목표"
 date: "2026-10-31"
 description: "향후 학습 목표 및 실행계획"
+image: "img/blog/plan.jpg"
 tags: ["학습 목표"]
 ---
 

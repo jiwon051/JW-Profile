@@ -19,11 +19,11 @@ series: ["Themes Guide"]
 <!--more-->
 
 <!-- ===== 1. 데이터 분석이란 ===== -->
-<h2 class="da-section-title"><span class="da-num">01</span>Data Analysis란 ?</h2>
+<h2 class="da-section-title"><span class="da-num">01.</span> Data Analysis란 ?</h2>
 
 <p class="da-text">
-  * 데이터 분석은 다양한 형태의 데이터를 수집하고 정리한 뒤 통계적 방법과 분석 기법을 활용하여 의미 있는 정보를 도출하는 과정
-  * 단순히 데이터를 살펴보는 것을 넘어 데이터 속에 숨겨진 패턴과 문제점을 발견하고 이를 바탕으로 합리적인 의사결정과 문제 해결 지원
+  <li>데이터 분석은 다양한 형태의 데이터를 수집하고 정리한 뒤 통계적 방법과 분석 기법을 활용하여 의미 있는 정보를 도출하는 과정</li>
+  <li>단순히 데이터를 살펴보는 것을 넘어 데이터 속에 숨겨진 패턴과 문제점을 발견하고 이를 바탕으로 합리적인 의사결정과 문제 해결 지원</li>
 </p>
 
 <ol class="da-flow">
@@ -38,7 +38,7 @@ series: ["Themes Guide"]
 <hr class="about-divider">
 
 <!-- ===== 2. 선택한 이유 ===== -->
-<h2 class="da-section-title"><span class="da-num">02</span>선택한 이유</h2>
+<h2 class="da-section-title"><span class="da-num">02.</span> 선택한 이유</h2>
 
 <div class="da-reason-list">
   <div class="da-reason-card">
@@ -67,7 +67,7 @@ series: ["Themes Guide"]
 <hr class="about-divider">
 
 <!-- ===== 3. 관심분야 ===== -->
-<h2 class="da-section-title"><span class="da-num">03</span>관심 있는 분야</h2>
+<h2 class="da-section-title"><span class="da-num">03.</span> 관심 있는 분야</h2>
 
 <div class="da-field-list">
   <div class="da-field-card da-field-main">

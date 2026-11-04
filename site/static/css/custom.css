@@ -226,7 +226,7 @@
 }
 .content .da-tags span {
   padding: 0.3rem 0.8rem;
-  border: 1px solid #bfdbfe;
+  border: 1px solid #bcc4cb;
   border-radius: 999px;
   background: #eff6ff;
   color: #828ca9;
@@ -248,6 +248,81 @@
     transform: translateX(50%);
     line-height: 1;
   }
+}
+
+/* ===== 관심분야: IT Service 페이지 (it-) ===== */
+/* 하이라이트는 기존 .content mark 사용 */
+
+/* 섹션 제목 */
+.content .it-section-title {
+  margin: 0 0 1.25rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #1f2937;
+}
+
+/* 1. 기획 및 운영이란?: 불렛 목록 */
+.content .it-text {
+  margin: 0 0 1.5rem;
+  padding-left: 1.25rem;
+  list-style: disc;
+}
+.content .it-text li {
+  margin: 0.5rem 0;
+  line-height: 1.9;
+  color: #374151;
+}
+
+/* 2. 관심 분야 */
+.content .it-field {
+  padding: 1.5rem 0;
+}
+/* 두 분야 사이 점선 구분 */
+.content .it-field + .it-field {
+  border-top: 1px dashed #d1d5db;
+}
+
+/* 분야 제목: 앞에 파란 세로선 */
+.content .it-field-title {
+  margin: 0 0 0.5rem;
+  padding-left: 0.75rem;
+  border-left: 4px solid #2563eb;
+  font-size: 1.25rem;
+  font-weight: 800;
+  line-height: 1.4;
+  color: #1f2937;
+}
+
+/* 소제목: 관심을 갖게 된 이유 / 필요한 역량 */
+.content .it-sub {
+  margin: 1.5rem 0 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #0d9488;
+}
+
+/* 관심을 갖게 된 이유: 본문 문단 */
+.content .it-list {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: #4b5563;
+}
+
+/* 도구 태그 */
+.content .it-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.content .it-tags span {
+  padding: 0.3rem 0.8rem;
+  border: 1px solid #bcc4cb;
+  border-radius: 999px;
+  background: #f0fdfa;
+  color: #828ca9;
+  font-size: 0.85rem;
+  font-weight: 600;
 }
 
 

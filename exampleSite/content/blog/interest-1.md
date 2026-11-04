@@ -1,12 +1,12 @@
 ---
-author: "Hugo Authors"
-title: "Markdown Syntax Guide"
-date: "2019-03-11"
-description: "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
+author: "Han jiwon"
+title: "Data Analysis"
+date: "2026-10-30"
+description: "관심분야인 데이터분석 선택 이유"
 tags: [
-    "markdown",
-    "css",
-    "html",
+    "Data Analysis",
+    "관심분야",
+    "소개",
 ]
 categories: [
     "themes",
@@ -15,121 +15,90 @@ categories: [
 series: ["Themes Guide"]
 ---
 
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
+데이터 분석이란? 내가 데이터 분석을 선택한 이유
 <!--more-->
 
-## Headings
+<!-- ===== 1. 데이터 분석이란 ===== -->
+<h2 class="da-section-title"><span class="da-num">01</span>Data Analysis란 ?</h2>
 
-The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
+<p class="da-text">
+  * 데이터 분석은 다양한 형태의 데이터를 수집하고 정리한 뒤 통계적 방법과 분석 기법을 활용하여 의미 있는 정보를 도출하는 과정
+  * 단순히 데이터를 살펴보는 것을 넘어 데이터 속에 숨겨진 패턴과 문제점을 발견하고 이를 바탕으로 합리적인 의사결정과 문제 해결 지원
+</p>
 
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
+<ol class="da-flow">
+  <li><span class="da-flow-step">수집</span><span class="da-flow-desc">필요한 데이터 확보</span></li>
+  <li><span class="da-flow-step">정리</span><span class="da-flow-desc">결측치·오류 처리</span></li>
+  <li><span class="da-flow-step">분석</span><span class="da-flow-desc">통계·모델로 패턴 발견</span></li>
+  <li><span class="da-flow-step">시각화</span><span class="da-flow-desc">결과를 한눈에 전달</span></li>
+  <li><span class="da-flow-step">의사결정</span><span class="da-flow-desc">개선 방향 제시</span></li>
+</ol>
 
-## Paragraph
 
-Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
+<hr class="about-divider">
 
-Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
+<!-- ===== 2. 선택한 이유 ===== -->
+<h2 class="da-section-title"><span class="da-num">02</span>선택한 이유</h2>
 
-## Blockquotes
+<div class="da-reason-list">
+  <div class="da-reason-card">
+    <p class="da-reason-title">전공의 활용</p>
+    <ul>
+      <li>산업공학의 통계, 품질관리, 최적화는 모두 데이터를 근거로 한다.</li>
+      <li>수업에서 배운 이론을 실제 데이터에 적용해 볼 수 있다.</li>
+    </ul>
+  </div>
+  <div class="da-reason-card">
+    <p class="da-reason-title">두 전공을 하나로</p>
+    <ul>
+      <li>산업공학: 무엇을 개선할지 판단하는 관점</li>
+      <li>컴퓨터공학:Python, SQL 등으로 직접 처리하는 기술</li>
+    </ul>
+  </div>
+  <div class="da-reason-card">
+    <p class="da-reason-title">어디에서나 쓰이는 역량</p>
+    <ul>
+      <li>제조, 물류, 금융, 서비스 등 산업을 가리지 않는다.</li>
+      <li>한 번 익히면 어떤 분야로 가더라도 계속 쓸 수 있다.</li>
+    </ul>
+  </div>
+</div>
 
-The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
+<hr class="about-divider">
 
-#### Blockquote without attribution
+<!-- ===== 3. 관심분야 ===== -->
+<h2 class="da-section-title"><span class="da-num">03</span>관심 있는 분야</h2>
 
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-> **Note** that you can use *Markdown syntax* within a blockquote.
+<div class="da-field-list">
+  <div class="da-field-card da-field-main">
+    <span class="da-badge">관심 있는 분야</span>
+    <p class="da-field-title">제조 · 품질 데이터 분석</p>
+    <p class="da-field-desc">
+      공정과 설비에서 나오는 데이터를 분석해 불량을 줄이고 생산성을 높이는 일
+    </p>
+    <p class="da-field-sub">해보고 싶은 일</p>
+    <ul>
+      <li><strong>불량 원인 분석</strong>: 어떤 조건에서 불량이 늘어나는지 찾기</li>
+      <li><strong>설비 고장 예측</strong>: 센서 데이터로 고장 전에 미리 알리기</li>
+      <li><strong>공정 개선</strong>: 병목 구간을 찾아 생산 흐름 최적화</li>
+    </ul>
+  </div>
 
-#### Blockquote with attribution
+  <div class="da-field-card">
+    <span class="da-badge da-badge-sub">넓혀가고 싶은 분야</span>
+    <p class="da-field-title">IT 서비스 · 고객 데이터 분석</p>
+    <p class="da-field-desc">
+      사용자의 행동 데이터를 분석해 더 나은 서비스를 만드는 일
+    </p>
+    <p class="da-field-sub">해보고 싶은 일</p>
+    <ul>
+      <li><strong>고객 행동 분석</strong>: 어디서 이탈하고 무엇을 자주 쓰는지 파악</li>
+      <li><strong>A/B 테스트</strong>: 어떤 화면·기능이 더 효과적인지 검증</li>
+    </ul>
+  </div>
+</div>
 
-> Don't communicate by sharing memory, share memory by communicating.<br>
-> — <cite>Rob Pike[^1]</cite>
-
-[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
-
-## Tables
-
-Tables aren't part of the core Markdown spec, but Hugo supports supports them out-of-the-box.
-
-   Name | Age
---------|------
-    Bob | 27
-  Alice | 23
-
-#### Inline Markdown within tables
-
-| Italics   | Bold     | Code   |
-| --------  | -------- | ------ |
-| *italics* | **bold** | `code` |
-
-## Code Blocks
-
-#### Code block with backticks
-
-```html
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Example HTML5 Document</title>
-</head>
-<body>
-  <p>Test</p>
-</body>
-</html>
-```
-
-#### Code block indented with four spaces
-
-    <!doctype html>
-    <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <title>Example HTML5 Document</title>
-    </head>
-    <body>
-      <p>Test</p>
-    </body>
-    </html>
-
-#### Code block with Hugo's internal highlight shortcode
-{{< highlight html >}}
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Example HTML5 Document</title>
-</head>
-<body>
-  <p>Test</p>
-</body>
-</html>
-{{< /highlight >}}
-
-## List Types
-
-#### Ordered List
-
-1. First item
-2. Second item
-3. Third item
-
-#### Unordered List
-
-* List item
-* Another item
-* And another item
-
-#### Nested list
-
-* Fruit
-  * Apple
-  * Orange
-  * Banana
-* Dairy
-  * Milk
-  * Cheese
+<p class="da-field-sub">필요한 도구</p>
+<div class="da-tags">
+  <span>Python</span><span>pandas</span><span>SQL</span><span>Excel</span><span>Tableau</span><span>ADsP</span><span>SQLD</span>
+</div>

@@ -1,45 +1,41 @@
 ---
-author: "Hugo Authors"
-title: "Placeholder Text"
-date: "2019-03-09"
-description: "Lorem Ipsum Dolor Si Amet"
+author: "Han jiwon"
+title: "IT Service"
+date: "2026-10-30"
+description: "IT 서비스 기획 및 운영 설명과 관심을 가지게 된 이유"
 tags: [
-    "markdown",
-    "text",
+    "IT Service",
+    "서비스 기획",
+    "서비스 운영",
 ]
+
 ---
 
-Lorem est tota propiore conpellat pectoribus de pectora summo. <!--more-->Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.
+IT 서비스 기획이란? 내가 IT 서비스 기획과 운영에 관심을 갖게 된 이유
+<!--more-->
 
-1. Exierant elisi ambit vivere dedere
-2. Duce pollice
-3. Eris modo
-4. Spargitque ferrea quos palude
+<!-- ===== 1. IT 서비스 기획이란 ===== -->
+<h2 class="it-section-title"><mark> IT Service 기획 및 운영이란?</mark></h2>
 
-Rursus nulli murmur; hastile inridet ut ab gravi sententia! Nomine potitus silentia flumen, sustinet placuit petis in dilapsa erat sunt. Atria tractus malis.
+<ul class="it-text">
+  <li><strong>IT 서비스 기획</strong> : 사용자의 요구와 불편함을 파악하여 어떤 기능을 왜 만들지 정의하고 화면과 이용 흐름을 설계하는 과정</li>
+  <li><strong>IT 서비스 운영</strong> : 출시된 서비스를 안정적으로 유지하면서 지표와 사용자 의견을 바탕으로 서비스를 지속적으로 개선하는 과정</li>
+</ul>
 
-1. Comas hunc haec pietate fetum procerum dixit
-2. Post torum vates letum Tiresia
-3. Flumen querellas
-4. Arcanaque montibus omnes
-5. Quidem et
+<hr class="about-divider">
 
-# Vagus elidunt
+<!-- ===== 2. 관심 분야 ===== -->
+<h2 class="it-section-title"><mark> 관심 분야</mark></h2>
 
-<svg class="canon" xmlns="http://www.w3.org/2000/svg" overflow="visible" viewBox="0 0 496 373" height="373" width="496"><g fill="none"><path stroke="#000" stroke-width=".75" d="M.599 372.348L495.263 1.206M.312.633l494.95 370.853M.312 372.633L247.643.92M248.502.92l246.76 370.566M330.828 123.869V1.134M330.396 1.134L165.104 124.515"></path><path stroke="#ED1C24" stroke-width=".75" d="M275.73 41.616h166.224v249.05H275.73zM54.478 41.616h166.225v249.052H54.478z"></path><path stroke="#000" stroke-width=".75" d="M.479.375h495v372h-495zM247.979.875v372"></path><ellipse cx="498.729" cy="177.625" rx=".75" ry="1.25"></ellipse><ellipse cx="247.229" cy="377.375" rx=".75" ry="1.25"></ellipse></g></svg>
-
-[The Van de Graaf Canon](https://en.wikipedia.org/wiki/Canons_of_page_construction#Van_de_Graaf_canon)
-
-## Mane refeci capiebant unda mulcebat
-
-Victa caducifer, malo vulnere contra dicere aurato, ludit regale, voca! Retorsit colit est profanae esse virescere furit nec; iaculi matertera et visa est, viribus. Divesque creatis, tecta novat collumque vulnus est, parvas. **Faces illo pepulere** tempus adest. Tendit flamma, ab opes virum sustinet, sidus sequendo urbis.
-
-Iubar proles corpore raptos vero auctor imperium; sed et huic: manus caeli Lelegas tu lux. Verbis obstitit intus oblectamina fixis linguisque ausus sperare Echionides cornuaque tenent clausit possit. Omnia putatur. Praeteritae refert ausus; ferebant e primus lora nutat, vici quae mea ipse. Et iter nil spectatae vulnus haerentia iuste et exercebat, sui et.
-
-Eurytus Hector, materna ipsumque ut Politen, nec, nate, ignari, vernum cohaesit sequitur. Vel **mitis temploque** vocatus, inque alis, *oculos nomen* non silvis corpore coniunx ne displicet illa. Crescunt non unus, vidit visa quantum inmiti flumina mortis facto sic: undique a alios vincula sunt iactata abdita! Suspenderat ego fuit tendit: luna, ante urbem Propoetides **parte**.
-
-{{< css.inline >}}
-<style>
-.canon { background: white; width: 100%; height: auto; }
-</style>
-{{< /css.inline >}}
+<div class="it-field">
+<p class="it-field-title"> IT 서비스 기획</p>
+<p class="it-sub">관심을 갖게 된 이유</p>
+<p class="it-list">
+  IT 기술을 활용해 사용자에게 더 편리하고 가치 있는 서비스를 제공할 수 있다는 점에서 관심을 가지게 되었습니다.
+</p>
+</div>
+<p class="it-sub">필요한 역량</p>
+<div class="it-tags">
+<span>Figma</span><span>Notion</span><span>Jira</span><span>PowerPoint</span>
+</div>
+</div>

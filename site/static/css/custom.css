@@ -229,8 +229,28 @@
   border: 1px solid #bfdbfe;
   border-radius: 999px;
   background: #eff6ff;
-  color: #1d4ed8;
+  color: #828ca9;
   font-size: 0.85rem;
   font-weight: 600;
 }
+
+/* 모바일: 분석 과정 흐름 1열, 화살표는 아래 방향 */
+@media (max-width: 768px) {
+  .content .da-flow {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+  .content .da-flow li:not(:last-child)::after {
+    content: "↓";
+    top: auto;
+    right: 50%;
+    bottom: -1.2rem;
+    transform: translateX(50%);
+    line-height: 1;
+  }
+}
+
+
+
+
 

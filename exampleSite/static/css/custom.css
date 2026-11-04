@@ -112,18 +112,6 @@
   font-weight: 800;
   color: #1f2937;
 }
-.content .da-num {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 2.2rem;
-  height: 2.2rem;
-  border-radius: 0.5rem;
-  background: #2563eb;
-  color: #fff;
-  font-size: 0.95rem;
-  font-weight: 700;
-}
 .content .da-text {
   line-height: 1.9;
   color: #374151;
@@ -132,7 +120,7 @@
 /* 하이라이트: 형광펜처럼 글자 아래쪽 절반만 칠함 */
 .content mark {
   padding: 0 0.2em;
-  background: linear-gradient(transparent 55%, #fde68a 55%);
+  background: linear-gradient(transparent 55%, #fff7d8 55%);
   color: inherit;
 }
 
@@ -153,7 +141,7 @@
   margin: 0;
   padding: 1rem 0.75rem;
   border: 1px solid #e5e7eb;
-  border-top: 3px solid #2563eb;
+  border-top: 3px solid;
   border-radius: 0.6rem;
   background: #fff;
   text-align: center;
@@ -165,7 +153,7 @@
   right: -0.65rem;
   transform: translateY(-50%);
   font-weight: 700;
-  color: #2563eb;
+  color: #000000;
 }
 .content .da-flow-step {
   font-weight: 700;
@@ -176,87 +164,27 @@
   color: #6b7280;
 }
 
-/* 핵심 포인트 박스 */
-.content .da-callout {
-  padding: 1rem 1.25rem;
-  border-left: 4px solid #2563eb;
-  border-radius: 0 0.5rem 0.5rem 0;
-  background: #eff6ff;
-  line-height: 1.8;
-  color: #374151;
-}
-.content .da-callout > strong:first-child {
-  display: block;
-  margin-bottom: 0.25rem;
-  color: #1d4ed8;
-}
-
-/* 3. 선택한 이유 카드 3개 */
-.content .da-reason-list {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
-}
-.content .da-reason-card,
-.content .da-field-card {
-  padding: 1.5rem;
-  border: 1px solid #e5e7eb;
-  border-radius: 0.75rem;
-  background: #fff;
-}
-.content .da-reason-title {
-  margin: 0 0 0.75rem;
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: #1f2937;
-}
-
-/* 카드 안 불렛포인트 (점 색상 파랑) */
-.content .da-reason-card ul,
-.content .da-field-card ul {
-  margin: 0;
-  padding-left: 1.1rem;
-  list-style: disc;
-}
-.content .da-reason-card li,
-.content .da-field-card li {
-  margin: 0.4rem 0;
-  font-size: 0.95rem;
-  line-height: 1.7;
-  color: #4b5563;
-}
-.content .da-reason-card li::marker,
-.content .da-field-card li::marker {
-  color: #2563eb;
-}
-
-/* 4. 관심 분야 카드 (주 관심 분야는 파란 테두리로 강조) */
+/* 관심 분야 카드  */
 .content .da-field-list {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
+  display: flex;
+  flex-direction: column;
 }
-.content .da-field-main {
-  border: 2px solid #2563eb;
-  box-shadow: 0 6px 16px rgba(37, 99, 235, 0.08);
+.content .da-field-item {
+  padding: 1.5rem 0;
 }
-.content .da-badge {
-  display: inline-block;
-  padding: 0.2rem 0.6rem;
-  border-radius: 999px;
-  background: #2563eb;
-  color: #fff;
-  font-size: 0.75rem;
-  font-weight: 700;
+/* 두 분야 사이 점선 구분 */
+.content .da-field-item + .da-field-item {
+  border-top: 1px dashed #d1d5db;
 }
-.content .da-badge-sub {
-  background: #e5e7eb;
-  color: #374151;
-}
+
+/* 분야 제목: 앞에 파란 세로선 */
 .content .da-field-title {
-  margin: 0.75rem 0 0.5rem;
+  margin: 0 0 0.5rem;
+  padding-left: 0.75rem;
+  border-left: 4px solid #2563eb;
   font-size: 1.25rem;
   font-weight: 800;
+  line-height: 1.4;
   color: #1f2937;
 }
 .content .da-field-desc {
@@ -265,11 +193,29 @@
   line-height: 1.8;
   color: #4b5563;
 }
+
+/* 소제목: 관심을 갖게 된 이유 / 해보고 싶은 일 / 필요한 도구 */
 .content .da-field-sub {
   margin: 1.25rem 0 0.4rem;
   font-size: 0.85rem;
   font-weight: 700;
   color: #2563eb;
+}
+
+/* 불렛포인트 (점 색상 검정) */
+.content .da-field-item ul {
+  margin: 0;
+  padding-left: 1.1rem;
+  list-style: disc;
+}
+.content .da-field-item li {
+  margin: 0.4rem 0;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #4b5563;
+}
+.content .da-field-item li::marker {
+  color: #000000;
 }
 
 /* 도구 태그 */

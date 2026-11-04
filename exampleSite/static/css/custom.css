@@ -325,7 +325,10 @@
   font-weight: 600;
 }
 
-
+/* 블로그 글 안의 대표 이미지 숨기기 (목록 썸네일은 그대로) */
+article > header > .aspect-video {
+  display: none;
+}
 
 
 

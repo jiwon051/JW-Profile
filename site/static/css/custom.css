@@ -1,11 +1,9 @@
-/* 
- This CSS file is used to override the existing styles of the theme.
- You can change the article headings, fonts, colors, etc.
-*/
 
 /*  About 페이지  */
+
+/* 프로필 */
 .content .about-profile {
-  margin-bottom: 2rem;
+  margin-bottom: 0;
 }
 .content .about-name {
   margin: 0;
@@ -16,15 +14,14 @@
 }
 .content .about-major {
   margin: 0.5rem 0 0;
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   font-weight: 600;
   color: #4b5563;
 }
 .content .about-intro {
   margin: 1rem 0 0;
   font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.8;
+  line-height: 1.85;
   color: #6b7280;
 }
 
@@ -34,14 +31,65 @@
   border-top: 1px solid #e5e7eb;
 }
 
-/* 관심분야  */
-.content .about-interest-title {
-  margin: 0 0 1.25rem;
-  font-size: 1.6rem;
+.content .about-title {
+  margin: 3rem 0 1.25rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid #e5e7eb;
+  font-size: 1.4rem;
   font-weight: 800;
   color: #1f2937;
 }
+.content .about-title span {
+  margin-left: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #9ca3af;
+}
 
+/* 성장 방향 */
+.content .about-growth {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: growth;
+}
+.content .about-growth li {
+  display: grid;
+  grid-template-columns: 2.5rem 1fr;
+  column-gap: 0.75rem;
+  margin: 0;
+  padding: 1rem 0;
+  border-bottom: 1px solid #f3f4f6;
+  counter-increment: growth;
+}
+.content .about-growth li:last-child {
+  border-bottom: 0;
+}
+.content .about-growth li::before {
+  content: "0" counter(growth);
+  grid-row: span 2;
+  font-size: 0.95rem;
+  font-weight: 800;
+  line-height: 1.7;
+  color: #1e3a5f;
+}
+.content .about-growth p {
+  margin: 0;
+}
+.content .about-growth-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.7;
+  color: #1f2937;
+}
+.content .about-growth-desc {
+  margin-top: 0.2rem !important;
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: #6b7280;
+}
+
+/* 관심분야 카드 */
 .content .about-interest-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -52,11 +100,10 @@
     grid-template-columns: 1fr;
   }
 }
-
 .content .about-interest-card {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.4rem;
   padding: 1.5rem;
   border: 1px solid #e5e7eb;
   border-radius: 0.75rem;
@@ -66,12 +113,12 @@
   transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
 }
 .content .about-interest-card:hover {
-  border-color: #9ca3af;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  border-color: #1e3a5f;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
   transform: translateY(-2px);
 }
 .content .about-interest-card-title {
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   font-weight: 700;
   color: #1f2937;
 }
@@ -81,9 +128,10 @@
 }
 .content .about-interest-card-more {
   margin-top: auto;
+  padding-top: 0.75rem;
   font-size: 0.85rem;
   font-weight: 600;
-  color: #2563eb;
+  color: #1e3a5f;
 }
 @media (prefers-reduced-motion: reduce) {
   .content .about-interest-card {
@@ -95,7 +143,6 @@
 }
 
 /*  관심분야: Data Analysis 페이지 */
-
 
 /* 섹션 제목 */
 .content .da-section-title {

@@ -876,3 +876,27 @@ article > header > .aspect-video {
 
 
 
+
+
+/* ===== 홈 슬라이드: 크기 줄이기 ===== */
+/* 둥근 모서리 + 그림자 */
+.hero-wrap {
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.15);
+}
+/* 높이: 85vh → 560px */
+.splide__list img {
+  height: 560px;
+}
+/* 폭이 줄어도 문구가 두 줄로 꺾이지 않게 (위치는 가운데 그대로) */
+.splide__slide .s-fade-txt {
+  width: 100%;
+  padding: 0 1rem;
+  text-align: center;
+}
+@media (max-width: 640px) {
+  .splide__list img {
+    height: 360px;
+  }
+}

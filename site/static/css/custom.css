@@ -3,9 +3,7 @@
  You can change the article headings, fonts, colors, etc.
 */
 
-/* ===== About 페이지 ===== */
-
-/* 이름 > 전공 > 소개 순으로 강조가 약해짐 */
+/*  About 페이지  */
 .content .about-profile {
   margin-bottom: 2rem;
 }
@@ -30,14 +28,13 @@
   color: #6b7280;
 }
 
-/* 구분선 */
 .content .about-divider {
   margin: 2.5rem 0;
   border: 0;
   border-top: 1px solid #e5e7eb;
 }
 
-/* 관심분야 제목 */
+/* 관심분야  */
 .content .about-interest-title {
   margin: 0 0 1.25rem;
   font-size: 1.6rem;
@@ -45,7 +42,6 @@
   color: #1f2937;
 }
 
-/* 관심분야 박스 2개 (모바일은 1열) */
 .content .about-interest-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -98,11 +94,10 @@
   }
 }
 
-/* ===== 관심분야: Data Analysis 페이지 (da-) ===== */
-/* 강조색은 파랑 하나, 하이라이트는 연노랑만 사용 */
+/*  관심분야: Data Analysis 페이지 */
 
 
-/* 섹션 제목: 파란 번호 박스 + 제목 */
+/* 섹션 제목 */
 .content .da-section-title {
   display: flex;
   align-items: center;
@@ -124,7 +119,7 @@
   color: inherit;
 }
 
-/* 2. 데이터 분석 과정 흐름 (5단계 박스 + 화살표) */
+/* 2. 데이터 분석 과정 흐름  */
 .content .da-flow {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -172,12 +167,11 @@
 .content .da-field-item {
   padding: 1.5rem 0;
 }
-/* 두 분야 사이 점선 구분 */
 .content .da-field-item + .da-field-item {
   border-top: 1px dashed #d1d5db;
 }
 
-/* 분야 제목: 앞에 파란 세로선 */
+/* 분야 제목 */
 .content .da-field-title {
   margin: 0 0 0.5rem;
   padding-left: 0.75rem;
@@ -194,7 +188,7 @@
   color: #4b5563;
 }
 
-/* 소제목: 관심을 갖게 된 이유 / 해보고 싶은 일 / 필요한 도구 */
+/* 소제목 */
 .content .da-field-sub {
   margin: 1.25rem 0 0.4rem;
   font-size: 0.85rem;
@@ -202,7 +196,7 @@
   color: #2563eb;
 }
 
-/* 불렛포인트 (점 색상 검정) */
+/* 불렛포인트  */
 .content .da-field-item ul {
   margin: 0;
   padding-left: 1.1rem;
@@ -234,7 +228,7 @@
   font-weight: 600;
 }
 
-/* 모바일: 분석 과정 흐름 1열, 화살표는 아래 방향 */
+/* 모바일 */
 @media (max-width: 768px) {
   .content .da-flow {
     grid-template-columns: 1fr;
@@ -250,8 +244,7 @@
   }
 }
 
-/* ===== 관심분야: IT Service 페이지 (it-) ===== */
-/* 하이라이트는 기존 .content mark 사용 */
+/* 관심분야: IT Service 페이지  */
 
 /* 섹션 제목 */
 .content .it-section-title {
@@ -261,7 +254,7 @@
   color: #1f2937;
 }
 
-/* 1. 기획 및 운영이란?: 불렛 목록 */
+/* 1. 기획 및 운영이란? */
 .content .it-text {
   margin: 0 0 1.5rem;
   padding-left: 1.25rem;
@@ -277,12 +270,11 @@
 .content .it-field {
   padding: 1.5rem 0;
 }
-/* 두 분야 사이 점선 구분 */
 .content .it-field + .it-field {
   border-top: 1px dashed #d1d5db;
 }
 
-/* 분야 제목: 앞에 파란 세로선 */
+/* 분야 제목 */
 .content .it-field-title {
   margin: 0 0 0.5rem;
   padding-left: 0.75rem;
@@ -293,7 +285,7 @@
   color: #1f2937;
 }
 
-/* 소제목: 관심을 갖게 된 이유 / 필요한 역량 */
+/* 소제목 */
 .content .it-sub {
   margin: 1.5rem 0 0.5rem;
   font-size: 0.85rem;
@@ -301,7 +293,7 @@
   color: #0d9488;
 }
 
-/* 관심을 갖게 된 이유: 본문 문단 */
+/* 관심을 갖게 된 이유 */
 .content .it-list {
   margin: 0;
   font-size: 0.95rem;
@@ -332,8 +324,7 @@ article > header > .aspect-video {
 
 
 
-/* ===== Skill 페이지 (sk-) ===== */
-/* GitHub 느낌의 회색·검정 계열 */
+/* Skill 페이지 */
 .content .sk-page {
   --sk-text: #1f2328;
   --sk-muted: #59636e;
@@ -343,7 +334,7 @@ article > header > .aspect-video {
   color: var(--sk-text);
 }
 
-/* 섹션 제목: GitHub README처럼 아래 회색 선 */
+/* 섹션 제목 */
 .content .sk-section-title {
   margin: 2.5rem 0 1.25rem;
   padding-bottom: 0.5rem;
@@ -426,7 +417,7 @@ article > header > .aspect-video {
   color: #fff;
 }
 
-/* 소제목: 실습 과정 / 링크 */
+/* 소제목 */
 .content .sk-sub {
   margin: 1.25rem 0 0.5rem;
   font-size: 0.8rem;
@@ -435,7 +426,7 @@ article > header > .aspect-video {
   color: var(--sk-muted);
 }
 
-/* 실습 과정: 동그라미 번호 + 세로 연결선 */
+/* 실습 과정 */
 .content .sk-steps {
   margin: 0;
   padding: 0;
@@ -493,7 +484,7 @@ article > header > .aspect-video {
   content: none;
 }
 
-/* 링크: 회색 박스 버튼 2개 (모바일은 1열) */
+/* 링크 */
 .content .sk-links {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -547,5 +538,318 @@ article > header > .aspect-video {
 @media (prefers-reduced-motion: reduce) {
   .content .sk-link {
     transition: none;
+  }
+}
+
+
+/* 프로젝트: 범죄발생예측 페이지 */
+.content .pj-page {
+  --pj-text: #1f2937;
+  --pj-muted: #6b7280;
+  --pj-line: #e5e7eb;
+  --pj-navy: #1e3a5f;      /* 강조색: 남색 */
+  --pj-navy-line: #c5d0de; /* 연한 남색 선 */
+  --pj-navy-bg: #f1f4f8;   /* 아주 연한 남색 배경 */
+  color: var(--pj-text);
+}
+.content .pj-page p {
+  margin: 0;
+}
+.content .pj-page li {
+  font-size: 1rem;
+  color: #374151;
+}
+
+/* 개요 */
+.content .pj-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 2.5rem;
+}
+.content .pj-meta-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.content .pj-meta-label {
+  font-size: 0.8rem;
+  color: var(--pj-muted);
+}
+.content .pj-meta-value {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.content .pj-status::before {
+  content: "";
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-right: 0.4rem;
+  border-radius: 50%;
+  background: var(--pj-navy);
+  vertical-align: 0.1em;
+}
+
+/* 섹션 제목 */
+.content .pj-section-title {
+  margin: 2.5rem 0 1.25rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid var(--pj-line);
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--pj-text);
+}
+
+/* 본문 */
+.content .pj-text,
+.content .pj-result {
+  font-size: 1rem;
+  line-height: 1.85;
+  color: #374151;
+}
+.content .pj-list {
+  margin: 0;
+  padding-left: 1.1rem;
+  list-style: disc;
+}
+.content .pj-list li {
+  margin: 0.3rem 0;
+  padding: 0;
+  line-height: 1.7;
+}
+
+/* 역할 및 기여 */
+.content .pj-roles {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+}
+.content .pj-role-title {
+  margin-bottom: 0.5rem !important;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--pj-muted);
+}
+.content .pj-role-me {
+  align-self: start;
+  padding-left: 1rem;
+  border-left: 3px solid var(--pj-navy);
+}
+.content .pj-role-me .pj-role-title {
+  color: var(--pj-navy);
+}
+
+/* 전체 수행 단계 */
+.content .pj-flow {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1.75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: flow;
+}
+.content .pj-flow li {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  margin: 0;
+  padding: 0;
+  counter-increment: flow;
+}
+.content .pj-flow li::before {
+  content: "0" counter(flow);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--pj-navy);
+}
+.content .pj-flow li:not(:last-child)::after {
+  content: "→";
+  position: absolute;
+  top: 1.35rem;
+  right: -1.25rem;
+  color: #9ca3af;
+}
+.content .pj-flow-step {
+  font-weight: 700;
+}
+.content .pj-flow-desc {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--pj-muted);
+}
+
+/* 번호 목록  */
+.content .pj-steps {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: step;
+}
+.content .pj-steps li {
+  position: relative;
+  margin: 0;
+  padding: 0.55rem 0 0.55rem 2rem;
+  border-bottom: 1px solid #f3f4f6;
+  line-height: 1.7;
+  counter-increment: step;
+}
+.content .pj-steps li:last-child {
+  border-bottom: 0;
+}
+.content .pj-steps li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0.55rem;
+  font-weight: 700;
+  color: var(--pj-navy);
+}
+
+/* 이상치 처리 이유 */
+.content .pj-callout {
+  margin-top: 1.5rem;
+  padding: 1.25rem 1.5rem;
+  border-left: 3px solid var(--pj-navy);
+  border-radius: 0 8px 8px 0;
+  background: var(--pj-navy-bg);
+}
+.content .pj-callout-title {
+  margin-bottom: 0.5rem !important;
+  font-weight: 700;
+  color: var(--pj-navy);
+}
+.content .pj-page code {
+  padding: 0.1rem 0.35rem;
+  border-radius: 4px;
+  background: #eef0f3;
+  font-size: 0.85em;
+  font-weight: 500;
+  color: var(--pj-text);
+}
+.content .pj-page code::before,
+.content .pj-page code::after {
+  content: none;
+}
+
+/* 산출물 */
+.content .pj-output {
+  padding: 1.75rem 0;
+}
+.content .pj-output + .pj-output {
+  border-top: 1px solid var(--pj-line);
+}
+.content .pj-output-title {
+  margin-bottom: 1rem !important;
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+.content .pj-output-num {
+  margin-right: 0.6rem;
+  color: var(--pj-navy);
+}
+
+/* 이미지 */
+.content .pj-figure {
+  margin: 0 0 0.75rem;
+}
+.content .pj-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border: 1px solid var(--pj-line);
+  border-radius: 6px;
+}
+.content .pj-figure figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  text-align: center;
+  color: var(--pj-muted);
+}
+.content .pj-result + .pj-figure {
+  margin-top: 1.75rem;
+}
+
+/* 결론 */
+.content .pj-sub {
+  margin: 1.5rem 0 0.75rem !important;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--pj-navy);
+}
+.content .pj-output-title + .pj-sub {
+  margin-top: 0 !important;
+}
+.content .pj-finding {
+  display: grid;
+  grid-template-columns: 10.5rem 1fr;
+  gap: 1rem;
+  padding: 0.75rem 0;
+}
+.content .pj-finding + .pj-finding {
+  border-top: 1px solid #f3f4f6;
+}
+.content .pj-finding-title {
+  font-size: 1rem;
+  white-space: nowrap;
+  font-weight: 700;
+  line-height: 1.85;
+}
+
+/* 학습 결과 */
+.content .pj-learn-item + .pj-learn-item {
+  margin-top: 2rem;
+}
+.content .pj-learn-label {
+  margin-bottom: 0.4rem !important;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+.content .pj-next {
+  margin-top: 0.75rem;
+  padding-left: 1rem;
+  border-left: 3px solid var(--pj-navy-line);
+}
+.content .pj-next-label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--pj-navy);
+}
+.content .pj-next ul {
+  margin: 0.25rem 0 0;
+  padding-left: 1.1rem;
+  list-style: disc;
+}
+.content .pj-next li {
+  margin: 0.25rem 0;
+  padding: 0;
+  line-height: 1.7;
+  color: #374151;
+}
+
+/* 모바일 */
+@media (max-width: 640px) {
+  .content .pj-roles {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .content .pj-flow {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+  .content .pj-flow li {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.5rem;
+  }
+  .content .pj-flow li::after {
+    display: none;
+  }
+  .content .pj-finding {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
   }
 }

@@ -10,6 +10,7 @@
                     <img src="{{ .image }}" alt="{{ .alt }}">
                     <div class="s-fade-txt">
                         <h1 class="text-4xl font-medium {{ or .color "text-white" }}">{{ .title }}</h1>
+                        {{ if .link }}<a class="hero-btn" href="{{ .link | relURL }}">{{ or .linkText "자세히 보기" }} →</a>{{ end }}
                     </div>
                 </li>
                 {{ end }}
@@ -19,6 +20,7 @@
                     <img src="{{ .image }}" alt="{{ .alt }}">
                     <div class="s-fade-txt">
                         <h1 class="text-4xl font-medium {{ or .color "text-white" }}">{{ .title }}</h1>
+                        {{ if .link }}<a class="hero-btn" href="{{ .link | relURL }}">{{ or .linkText "자세히 보기" }} →</a>{{ end }}
                     </div>
                 </li>
                 {{ end }}

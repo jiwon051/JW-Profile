@@ -1,11 +1,15 @@
 [
   {
     "title": "HJW의 포트폴리오에 오신 걸 환영합니다",
-    "image": "img/slide/slide1.png"
+    "image": "img/slide/slide1.png",
+    "link": "products/",
+    "linkText": "프로젝트 보기"
   },
   {
     "title": "Carpe Diem",
     "image": "img/slide/slide2.png",
-    "color": "text-black"
+    "color": "text-black",
+    "link": "about/",
+    "linkText": "소개 보기"
   }
 ]

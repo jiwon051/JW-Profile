@@ -586,7 +586,7 @@ article > header > .aspect-video {
   height: 0.5rem;
   margin-right: 0.4rem;
   border-radius: 50%;
-  background: var(--pj-navy);
+  background: #84cc16;
   vertical-align: 0.1em;
 }
 
@@ -854,7 +854,24 @@ article > header > .aspect-video {
   }
 }
 
-
+/* 프로젝트 카드 진행 상태 표시 */
+.pj-card-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #4b5563;
+}
+.pj-card-status::before {
+  content: "";
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+}
+.pj-card-status.is-done::before  { background: #84cc16; } 
+.pj-card-status.is-doing::before { background: #fc902b; } 
 
 
 

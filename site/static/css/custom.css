@@ -828,7 +828,31 @@ article > header > .aspect-video {
   line-height: 1.7;
   color: #374151;
 }
-
+ 
+/* 모바일 */
+@media (max-width: 640px) {
+  .content .pj-roles {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .content .pj-flow {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+  .content .pj-flow li {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.5rem;
+  }
+  .content .pj-flow li::after {
+    display: none;
+  }
+  .content .pj-finding {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+}
 
 
 

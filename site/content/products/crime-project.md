@@ -90,6 +90,83 @@ description: 장소·시간대·요일 정보로 범죄 다발 여부를 예측�
   </ul>
 </div>
 
+<!-- ===== 5. 산출물 및 결과 ===== -->
+<h2 class="pj-section-title">산출물 및 결과</h2>
+
+<!-- 5-1. 전처리 -->
+<div class="pj-output">
+  <p class="pj-output-title"><span class="pj-output-num">01</span>전처리</p>
+
+  <figure class="pj-figure">
+    <img src="/img/project/crime/log-transform.png" alt="로그 변환 전후 분포 비교">
+    <figcaption>로그 변환 전후 분포</figcaption>
+  </figure>
+  <p class="pj-result">
+    범죄 건수 분포가 한쪽으로 크게 치우쳐 있어 로그 변환을 적용한 결과 변환 후 분포의 치우침이 완화되었다.
+  </p>
+
+  <div class="pj-figure-row">
+    <figure class="pj-figure">
+      <img src="/img/project/crime/boxplot.png" alt="이상치 처리 전/후 박스플롯">
+      <figcaption>이상치 처리 전/후</figcaption>
+    </figure>
+  </div>
+  <p class="pj-result">
+    처리 전에는 시간대·요일·장소별로 극단값이 많이 나타났지만 IQR 기준으로 찾은 이상치를 중앙값으로 대체한 뒤에는 행을 삭제하지 않고도 극단값이 줄어든 것을 확인하였다.
+</div>
+
+<!-- 5-2. 모델링 -->
+<div class="pj-output">
+  <p class="pj-output-title"><span class="pj-output-num">02</span>모델링</p>
+
+  <figure class="pj-figure">
+    <img src="/img/project/crime/model-compare.png" alt="로지스틱 회귀와 의사결정나무 성능 비교">
+    <figcaption>로지스틱 회귀 vs 의사결정나무 성능 비교</figcaption>
+  </figure>
+  <p class="pj-result">
+    로지스틱 회귀와 의사결정나무 두 모델을 교차검증과 ROC 곡선으로 비교한 결과 로지스틱 회귀 모델의 MSE가 더 낮아 로지스틱 회귀 모델 채택하였다.
+  </p>
+</div>
+
+<!-- 5-3. 결론 -->
+<div class="pj-output">
+  <p class="pj-output-title"><span class="pj-output-num">03</span>결론</p>
+
+  <p class="pj-sub">분석 결과</p>
+  <div class="pj-findings">
+    <div class="pj-finding">
+      <p class="pj-finding-title">요일별 범죄 발생</p>
+      <p class="pj-text">
+        범죄 발생은 주로 주말에 집중되어, 토요일과 일요일에 나이트클럽, 펍, 주요 도로 등에서 기타범죄, 지능범죄, 폭력범죄가 많이 발생한 걸 확인할 수 있다.
+      </p>
+    </div>
+    <div class="pj-finding">
+      <p class="pj-finding-title">장소별 범죄 발생</p>
+      <p class="pj-text">
+        도로(MAINROAD), 나이트클럽(NIGHT CLUB), 펍(PUB), 레스토랑(RESTAURANT) 등에서는 시간대별로 범죄 발생 확률이 높았음을 확인 할 수 있다.
+      </p>
+    </div>
+    <div class="pj-finding">
+      <p class="pj-finding-title">시간대별 범죄 발생</p>
+      <p class="pj-text">
+        DAWN, MORNING처럼 범죄가 적은 시간대 자체보다는 주요 장소와 특정 범죄 유형이 범죄 발생에 더 큰 영향을 미쳤으며 주로 주말 시간의 영향을 많이 받았음을 확인할 수 있다.
+      </p>
+    </div>
+  </div>
+
+  <p class="pj-sub">범죄 예방 전략</p>
+  <ol class="pj-steps">
+    <li><strong>주말 집중 순찰</strong>: 범죄가 몰리는 토요일·일요일에 나이트클럽, 펍이 밀집한 지역과 주요 도로를 중심으로 순찰 인력을 늘린다.</li>
+    <li><strong>고위험 장소 맞춤 관리</strong>: 도로, 나이트클럽, 펍, 레스토랑 주변에 CCTV와 조명을 확충하고 업소와 협력해 영업 시간대 안전 관리를 강화한다.</li>
+    <li><strong>범죄 유형별 대응</strong>: 폭력범죄는 주점가 주변 신속 출동 체계를 갖추고 지능범죄는 사기 수법 안내 등 예방 홍보를 함께 진행한다.</li>
+    <li><strong>경찰 자원 재배치</strong>: 범죄가 적은 새벽·아침 시간대의 인력을 주말과 고위험 장소로 옮겨 한정된 자원을 효율적으로 활용한다.</li>
+  </ol>
+</div>
+
+
+
+
+
 
 
 

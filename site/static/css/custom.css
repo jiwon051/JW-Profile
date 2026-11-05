@@ -884,7 +884,7 @@ article > header > .aspect-video {
 .splide__list img {
   height: 480px;
 }
-/* 슬라이드 글씨: 왼쪽 정렬 */
+/* 슬라이드 글씨 */
 .splide__slide .s-fade-txt {
   top: 50%;
   left: 4rem;
@@ -892,7 +892,6 @@ article > header > .aspect-video {
   transform: translateY(-50%);
   text-align: left;
 }
-/* 슬라이드 글씨 크기: 2.25rem → 1.875rem */
 .splide__slide .s-fade-txt h1 {
   font-size: 1.875rem;
   line-height: 1.35;
@@ -909,7 +908,20 @@ article > header > .aspect-video {
   }
 }
 
-/* 홈 슬라이드 링크 버튼: 흰 배경 + 검정 글씨 */
+/* 홈 슬라이드 서브 문구: 작고 연하게 */
+.splide__slide .hero-sub {
+  margin-top: 0.6rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.7);
+}
+@media (max-width: 640px) {
+  .splide__slide .hero-sub {
+    font-size: 0.875rem;
+  }
+}
+
+/* 홈 슬라이드 링크 버튼 */
 .hero-btn {
   display: inline-block;
   margin-top: 1.25rem;

@@ -1,14 +1,16 @@
 [
   {
-    "title": "HJW의 포트폴리오에 오신 걸 환영합니다",
+    "title": "HJW의 홈페이지에 오신 걸 환영합니다",
+    "subtitle": "저의 이야기부터 관심 분야, 앞으로의 목표를 소개합니다.",
     "image": "img/slide/slide1.png",
-    "link": "products/",
-    "linkText": "프로젝트 보기"
-  },
-  {
-    "title": "Carpe Diem",
-    "image": "img/slide/slide2.png",
     "link": "about/",
     "linkText": "소개 보기"
+  },
+  {
+    "title": "My Projects",
+    "subtitle": "배운 내용을 바탕으로 직접 고민하고 만들어 본 프로젝트를 소개합니다.",
+    "image": "img/slide/slide2.png",
+    "link": "products/",
+    "linkText": "프로젝트 보기"
   }
 ]

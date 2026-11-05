@@ -1,5 +1,5 @@
 <!-- 홈 슬라이드: 아래 흰 박스 폭에 맞춘 틀 -->
-<div class="container mx-auto max-w-7xl px-2 mt-6">
+<div class="container mx-auto max-w-6xl px-2 mt-6">
   <div class="hero-wrap">
 <div class="splide" role="group" aria-label="Top Page Slides">
     <div class="splide__track">
@@ -10,6 +10,7 @@
                     <img src="{{ .image }}" alt="{{ .alt }}">
                     <div class="s-fade-txt">
                         <h1 class="text-4xl font-medium {{ or .color "text-white" }}">{{ .title }}</h1>
+                        {{ with .subtitle }}<p class="hero-sub">{{ . }}</p>{{ end }}
                         {{ if .link }}<a class="hero-btn" href="{{ .link | relURL }}">{{ or .linkText "자세히 보기" }} →</a>{{ end }}
                     </div>
                 </li>
@@ -20,6 +21,7 @@
                     <img src="{{ .image }}" alt="{{ .alt }}">
                     <div class="s-fade-txt">
                         <h1 class="text-4xl font-medium {{ or .color "text-white" }}">{{ .title }}</h1>
+                        {{ with .subtitle }}<p class="hero-sub">{{ . }}</p>{{ end }}
                         {{ if .link }}<a class="hero-btn" href="{{ .link | relURL }}">{{ or .linkText "자세히 보기" }} →</a>{{ end }}
                     </div>
                 </li>

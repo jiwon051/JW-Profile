@@ -165,6 +165,13 @@
   background: linear-gradient(transparent 55%, #fff7d8 55%);
   color: inherit;
 }
+/* 페이지별 형광펜 색: 핵심 색의 파스텔 톤 */
+.content .da-section-title mark {
+  background: linear-gradient(transparent 55%, #dbeafe 55%); /* Data Analysis: 연한 파랑 */
+}
+.content .it-section-title mark {
+  background: linear-gradient(transparent 55%, #ccf5ec 55%); /* IT Service: 연한 초록 */
+}
 
 /* 2. 데이터 분석 과정 흐름  */
 .content .da-flow {
@@ -346,6 +353,23 @@
   font-size: 0.95rem;
   line-height: 1.8;
   color: #4b5563;
+}
+
+/* 핵심 역량: 위 문단과 같은 글자 크기·색 */
+.content .it-skills {
+  margin: 0;
+  padding-left: 1.1rem;
+  list-style: disc;
+}
+.content .it-skills li {
+  margin: 0.4rem 0;
+  padding: 0;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #4b5563;
+}
+.content .it-skills li::marker {
+  color: #000;
 }
 
 /* 도구 태그 */

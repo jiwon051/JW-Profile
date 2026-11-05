@@ -170,7 +170,7 @@
   background: linear-gradient(transparent 55%, #dbeafe 55%); /* Data Analysis: 연한 파랑 */
 }
 .content .it-section-title mark {
-  background: linear-gradient(transparent 55%, #ccf5ec 55%); /* IT Service: 연한 초록 */
+  background: linear-gradient(transparent 55%, #e3f8f1 55%); /* IT Service: 연한 초록 */
 }
 
 /* 2. 데이터 분석 과정 흐름  */
@@ -247,7 +247,7 @@
   margin: 1.25rem 0 0.4rem;
   font-size: 0.85rem;
   font-weight: 700;
-  color: #2563eb;
+  color: #1f2937;
 }
 
 /* 불렛포인트  */
@@ -344,7 +344,7 @@
   margin: 1.5rem 0 0.5rem;
   font-size: 0.85rem;
   font-weight: 700;
-  color: #0d9488;
+  color: #1f2937;
 }
 
 /* 관심을 갖게 된 이유 */

@@ -94,12 +94,6 @@ googleFonts = true
   url = "/blog/"
   weight = 2
 
-  [[menu.main]]
-  identifier = "contact"
-  name = "Contact"
-  url = "/contact/"
-  weight = 4
-
   # Footer Menu
   [[menu.footer]]
   name = "Home"

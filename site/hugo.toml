@@ -77,22 +77,22 @@ googleFonts = true
 
 [menu]
   [[menu.main]]
+  identifier = "about"
+  name = "소개"
+  url = "/about/"
+  weight = 3
+
+  [[menu.main]]
   identifier = "products"
-  name = "Products"
+  name = "프로젝트"
   url = "/products/"
   weight = 1
 
   [[menu.main]]
   identifier = "blog"
-  name = "Blog"
+  name = "블로그"
   url = "/blog/"
   weight = 2
-
-  [[menu.main]]
-  identifier = "about"
-  name = "About"
-  url = "/about/"
-  weight = 3
 
   [[menu.main]]
   identifier = "contact"

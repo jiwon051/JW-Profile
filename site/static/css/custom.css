@@ -895,6 +895,7 @@ article > header > .aspect-video {
 .splide__slide .s-fade-txt h1 {
   font-size: 1.875rem;
   line-height: 1.35;
+  color: #000;
 }
 @media (max-width: 640px) {
   .splide__list img {
@@ -908,12 +909,12 @@ article > header > .aspect-video {
   }
 }
 
-/* 홈 슬라이드 서브 문구: 작고 연하게 */
+/* 홈 슬라이드 서브 문구 */
 .splide__slide .hero-sub {
   margin-top: 0.6rem;
   font-size: 1rem;
   line-height: 1.6;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.6);
 }
 @media (max-width: 640px) {
   .splide__slide .hero-sub {

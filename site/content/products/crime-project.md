@@ -98,21 +98,20 @@ description: 장소·시간대·요일 정보로 범죄 다발 여부를 예측�
   <p class="pj-output-title"><span class="pj-output-num">01</span>전처리</p>
 
   <figure class="pj-figure">
-    <img src="/img/project/crime/log-transform.png" alt="로그 변환 전후 분포 비교">
+    <img src="/img/project/log-transform.png" alt="로그 변환 전후 분포 비교">
     <figcaption>로그 변환 전후 분포</figcaption>
   </figure>
   <p class="pj-result">
     범죄 건수 분포가 한쪽으로 크게 치우쳐 있어 로그 변환을 적용한 결과 변환 후 분포의 치우침이 완화되었다.
   </p>
 
-  <div class="pj-figure-row">
-    <figure class="pj-figure">
-      <img src="/img/project/crime/boxplot.png" alt="이상치 처리 전/후 박스플롯">
-      <figcaption>이상치 처리 전/후</figcaption>
-    </figure>
-  </div>
+  <figure class="pj-figure">
+    <img src="/img/project/boxplot.png" alt="이상치 처리 전/후 박스플롯">
+    <figcaption>이상치 처리 전/후</figcaption>
+  </figure>
   <p class="pj-result">
     처리 전에는 시간대·요일·장소별로 극단값이 많이 나타났지만 IQR 기준으로 찾은 이상치를 중앙값으로 대체한 뒤에는 행을 삭제하지 않고도 극단값이 줄어든 것을 확인하였다.
+  </p>
 </div>
 
 <!-- 5-2. 모델링 -->
@@ -120,7 +119,7 @@ description: 장소·시간대·요일 정보로 범죄 다발 여부를 예측�
   <p class="pj-output-title"><span class="pj-output-num">02</span>모델링</p>
 
   <figure class="pj-figure">
-    <img src="/img/project/crime/model-compare.png" alt="로지스틱 회귀와 의사결정나무 성능 비교">
+    <img src="/img/project/model-compare.png" alt="로지스틱 회귀와 의사결정나무 성능 비교">
     <figcaption>로지스틱 회귀 vs 의사결정나무 성능 비교</figcaption>
   </figure>
   <p class="pj-result">
@@ -174,9 +173,12 @@ description: 장소·시간대·요일 정보로 범죄 다발 여부를 예측�
       이상치를 '삭제할지, 대체할지'처럼 같은 문제에도 여러 선택지가 있었는데
       어느 쪽을 택하느냐에 따라 데이터에 남는 정보가 달라지므로 선택마다 근거가 필요하다는 점을 배웠다.
     </p>
-    <ui class="pj-next"><span>개선 방향</span>
+    <div class="pj-next">
+      <span class="pj-next-label">개선 방향</span>
+      <ul>
       <li>이상치를 대체하기 전과 후로 모델 성능을 비교해 전처리 방식의 선택이 결과에 어떤 영향을 주는지 직접 검증해보기</li>
-    </ui>
+      </ul>
+    </div>
   </div>
 
   <div class="pj-learn-item">
@@ -185,10 +187,13 @@ description: 장소·시간대·요일 정보로 범죄 다발 여부를 예측�
       원본은 장소·요일·시간대가 각각 따로 집계된 표였는데 이를 하나로 합치면서 각 행이 실제 "토요일 밤 펍에서 발생한 건수"가 아니라 서로 다른 집계값의 조합이 되었다.
       VIF가 정확히 1로 나온 것도 이 구조 때문일 가능성이 있었지만 당시에는 이 점을 충분히 검토하지 못했다.
     </p>
-    <ui class="pj-next"><span>개선 방향</span>
+    <div class="pj-next">
+      <span class="pj-next-label">개선 방향</span>
+      <ul>
       <li>분석에 사용하기 전에 원본 데이터의 집계 기준과 구조를 먼저 확인하고 실제로 동일한 관측 단위에서 수집된 데이터인지 검토</li>
       <li>장소·요일·시간대별 데이터가 각각 독립적으로 집계된 경우에는 이를 임의로 결합하지 않고 각 변수의 특성에 맞게 개별적으로 분석하거나 동일한 관측 단위로 수집된 데이터를 추가 확보</li>
-    </ui>
+      </ul>
+    </div>
   </div>
 </div>
 

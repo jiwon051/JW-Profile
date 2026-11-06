@@ -1105,7 +1105,12 @@ article > header > .aspect-video {
   }
 }
 
-/* 닫힌 메뉴 화면 안의 링크가 Tab에 잡히지 않게 숨기기 */
+
 #overlay:not(.open) {
   visibility: hidden;
+}
+
+/* 390px화면에서 슬라이드 화살표 겹침 */
+@media (max-width: 640px) {
+  .s-fade-txt { left: 3.5rem; right: 3.5rem; }
 }

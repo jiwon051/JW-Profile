@@ -975,8 +975,11 @@ article > header > .aspect-video {
   .splide__list img {
     height: 360px;
   }
+  
   .splide__slide .s-fade-txt {
-    left: 1.5rem;
+    left: 3.5rem;
+    right: 3.5rem;
+    width: auto;
   }
   .splide__slide .s-fade-txt h1 {
     font-size: 1.4rem;
@@ -1108,11 +1111,6 @@ article > header > .aspect-video {
 
 #overlay:not(.open) {
   visibility: hidden;
-}
-
-
-@media (max-width: 640px) {
-  .s-fade-txt { left: 3.5rem; right: 3.5rem; }
 }
 
 

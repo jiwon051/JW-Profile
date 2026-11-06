@@ -1104,3 +1104,8 @@ article > header > .aspect-video {
     padding: 0.25rem 1rem;
   }
 }
+
+/* 닫힌 메뉴 화면 안의 링크가 Tab에 잡히지 않게 숨기기 */
+#overlay:not(.open) {
+  visibility: hidden;
+}

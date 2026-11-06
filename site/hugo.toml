@@ -1,8 +1,8 @@
-baseURL = "https://example.com"
+baseURL = "https://jiwon051.github.io/JW-Profile/"
 title = "HJW"
 author = "HJW"
 languageCode = "ko"
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "ko"
 enableInlineShortcodes = true
 
 enableRobotsTXT = true

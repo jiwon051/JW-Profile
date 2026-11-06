@@ -50,7 +50,7 @@ github를 학습하고 이를 실제 과제와 프로젝트에 적용하여 실�
     <div class="sk-links">
       <a class="sk-link" href="https://github.com/jiwon051/movie-lab" target="_blank" rel="noopener">
         <span class="sk-link-label">GitHub 저장소</span>
-        <span class="sk-link-url">jiwon051.github.io/movie-lab</span>
+        <span class="sk-link-url">https://github.com/jiwon051/movie-lab</span>
       </a>
       <a class="sk-link" href="https://jiwon051.github.io/movie-lab/" target="_blank" rel="noopener">
         <span class="sk-link-label">배포 주소</span>
